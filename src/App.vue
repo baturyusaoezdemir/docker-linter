@@ -3,7 +3,7 @@
     <header>
       <h1>🚀 Docker Linter</h1>
       <p>Analyze your Dockerfile for potential issues, best practices, and optimizations.</p>
-      <p style="font-size: small;">The rules are available <a href="">here</a>, and I welcome any help or collaboration; feel free to add your own rules!</p>
+      <p style="font-size: small;">The rules are available <a href="https://github.com/baturyusaoezdemir/docker-linter">here</a>, and I welcome any help or collaboration; feel free to add your own rules!</p>
     </header>
     <main>
       <MonacoEditor v-model:value="dockerfileContent" />
