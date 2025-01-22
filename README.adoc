@@ -55,7 +55,7 @@ Docker Linter uses a set of 40+ rules to analyze your Dockerfile. Here are some 
 - *Medium*: Combine `RUN` commands to optimize layers.
 - *Low*: Add clear and concise comments.
 
-For the full list of rules, check out the `src/utils/lintRules.js` file.
+For the full list of rules[https://github.com/baturyusaoezdemir/docker-linter/blob/main/src/utils/lintRules.js], check out the `src/utils/lintRules.js` file.
 
 == Contributing
 
