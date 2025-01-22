@@ -1,0 +1,96 @@
+= Docker Linter
+
+🚀 *Docker Linter* is a powerful tool for analyzing and improving your Dockerfiles. It helps detect potential issues, enforces best practices, and optimizes your container images for performance, security, and maintainability.
+
+== Features
+
+- ✅ Detects common Dockerfile mistakes and inefficiencies.
+- 🚨 Categorizes issues by severity: *Critical*, *High*, *Medium*, and *Low*.
+- 🛠 Provides explanations and recommendations for each issue.
+- 🎨 Real-time linting with a visual editor powered by *Monaco Editor*.
+- 🔍 Optimizes Dockerfiles for smaller, faster, and more secure container images.
+
+== Getting Started
+
+Follow these instructions to get a copy of the project running on your local machine.
+
+=== Prerequisites
+
+- Node.js (version 14 or higher)
+- npm or yarn
+- Docker (optional, for testing linted Dockerfiles)
+
+=== Installation
+
+1. Clone the repository:  
+   { git clone https://github.com/baturyusaoezdemir/docker-linter.git }  
+   { cd docker-image-linter }
+
+2. Install dependencies:  
+   { npm install }
+
+3. Start the development server:  
+   { npm run dev }
+
+4. Open the app in your browser:  
+   { http://localhost:3000 }
+
+== Usage
+
+1. Paste your Dockerfile into the *Monaco Editor* on the app.  
+2. Click the `Lint Dockerfile` button.  
+3. Review the categorized results below the editor:
+   - *Critical*: Must-fix issues that impact security or functionality.
+   - *High*: Strong recommendations to improve performance or security.
+   - *Medium*: Best practices that improve maintainability.
+   - *Low*: Minor improvements or optional fixes.
+4. Hover over each issue to see detailed explanations and suggested solutions.
+
+== Rules
+
+Docker Linter uses a set of 40+ rules to analyze your Dockerfile. Here are some examples:
+
+- *Critical*: Avoid running containers as `root`.
+- *High*: Clean up `apt-get` cache to reduce image size.
+- *Medium*: Combine `RUN` commands to optimize layers.
+- *Low*: Add clear and concise comments.
+
+For the full list of rules, check out the `src/utils/lintRules.js` file.
+
+== Contributing
+
+We welcome contributions to improve Docker Linter! Here’s how you can help:
+
+1. Fork the repository.  
+2. Create a new branch:  
+   { git checkout -b my-feature-branch }
+
+3. Add your changes and commit:  
+   { git commit -m "Add my feature" }
+
+4. Push your branch:  
+   { git push origin my-feature-branch }
+
+5. Open a pull request and describe your changes.
+
+You can add your own rules or improve existing functionality. See `lintRules.js` for the current rule definitions.
+
+== Roadmap
+
+- [ ] Extend support for Docker Compose files.
+
+== License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+== Contact
+
+👤 *Your Name*  
+📧 Email: mailto:mail@yusaozdemir.de[mail@yusaozdemir.de]  
+🌐 GitHub: https://github.com/baturyusaoezdemir[baturyusaoezdemir]
+
+== Acknowledgments
+
+ecial thanks to the open-source community for inspiration and tools that made this project possible.
+
+Additionally, a big thanks to **ChatGPT**, your friendly AI assistant powered by OpenAI, for providing guidance and ideas for this project. 😄
