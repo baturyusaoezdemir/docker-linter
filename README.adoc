@@ -24,20 +24,20 @@ Follow these instructions to get a copy of the project running on your local mac
 
 1. Clone the repository:
 
-   `git clone https://github.com/baturyusaoezdemir/docker-linter.git`
-   `cd docker-image-linter`
+   git clone https://github.com/baturyusaoezdemir/docker-linter.git
+   cd docker-image-linter
 
 2. Install dependencies:
 
-   `npm install`
+   npm install
 
 3. Start the development server:
 
-   `npm run dev`
+   npm run dev
 
 4. Open the app in your browser:
 
-   `http://localhost:3000`
+   http://localhost:3000
 
 == Usage
 
