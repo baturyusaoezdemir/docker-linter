@@ -24,6 +24,7 @@ Follow these instructions to get a copy of the project running on your local mac
 
 1. Clone the repository:  
    `git clone https://github.com/baturyusaoezdemir/docker-linter.git`  
+   
    `cd docker-image-linter`
 
 2. Install dependencies:  
@@ -55,7 +56,7 @@ Docker Linter uses a set of 40+ rules to analyze your Dockerfile. Here are some 
 - *Medium*: Combine `RUN` commands to optimize layers.
 - *Low*: Add clear and concise comments.
 
-For the full list of (rules)[https://github.com/baturyusaoezdemir/docker-linter/blob/main/src/utils/lintRules.js], check out the `src/utils/lintRules.js` file.
+For the full list of rules(https://github.com/baturyusaoezdemir/docker-linter/blob/main/src/utils/lintRules.js), check out the `src/utils/lintRules.js` file.
 
 == Contributing
 
@@ -86,7 +87,8 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 == Contact
 
 👤 *Your Name*  
-📧 Email: mailto:mail@yusaozdemir.de[mail@yusaozdemir.de]  
+📧 Email: mailto:mail@yusaozdemir.de[mail@yusaozdemir.de]
+
 🌐 GitHub: https://github.com/baturyusaoezdemir[baturyusaoezdemir]
 
 == Acknowledgments
