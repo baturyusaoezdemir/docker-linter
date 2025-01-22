@@ -29,4 +29,8 @@ jobs:
 
     - name: Push Docker Image to ghcr.io
       run: |
-        docker push ghcr.io/baturyusaoezdemir/docker-linter:latest
+        docker buildx create --use
+        docker buildx build \
+          --platform linux/amd64,linux/arm64 \
+          -t ghcr.io/baturyusaoezdemir/docker-linter:latest \
+          --push .
