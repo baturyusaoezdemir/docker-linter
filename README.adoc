@@ -1,5 +1,7 @@
 = Docker Linter
 
+https://docker-linter.de/[Use Docker Linter now]
+
 🚀 *Docker Linter* is a powerful tool for analyzing and improving your Dockerfiles. It helps detect potential issues, enforces best practices, and optimizes your container images for performance, security, and maintainability.
 
 == Features
@@ -59,7 +61,7 @@ Docker Linter uses a set of 40+ rules to analyze your Dockerfile. Here are some 
 - *Medium*: Combine `RUN` commands to optimize layers.
 - *Low*: Add clear and concise comments.
 
-For the full list of rules(https://github.com/baturyusaoezdemir/docker-linter/blob/main/src/utils/lintRules.js), check out the `src/utils/lintRules.js` file.
+For the full list of https://github.com/baturyusaoezdemir/docker-linter/blob/main/src/utils/lintRules.js[rules], check out the `src/utils/lintRules.js` file.
 
 == Contributing
 
