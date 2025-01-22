@@ -37,7 +37,7 @@ Follow these instructions to get a copy of the project running on your local mac
 
 4. Open the app in your browser:
 
-   http://localhost:3000
+   http://localhost:5173
 
 == Usage
 
